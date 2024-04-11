@@ -3,25 +3,10 @@
 }
 
 footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
-}
-
-.content {
-  flex: 1;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  min-height: 100vh;
-  margin: 0;
+  background-color: #ffffff;
 }
